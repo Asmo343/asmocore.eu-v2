@@ -15,7 +15,7 @@
 		for (let i = 0; i < unpatched.length; i++) {
 			const element = unpatched[i];
 			console.log(unpatched[i].link);
-			unpatched[i].link.replace('\n                register\n              ', '');
+			unpatched[i].link = unpatched[i].link.replace('\n                ', '');
 			console.log(unpatched[i].link);
 			if ((element.owner as string).endsWith('/')) {
 				unpatched[i].owner = unpatched[i].owner.slice(0, -1);
