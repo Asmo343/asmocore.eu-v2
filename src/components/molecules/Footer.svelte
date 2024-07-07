@@ -12,6 +12,9 @@
 		<Tooltip tip="how to delete">
 			<a href="https://v1.asmocore.eu/" target="_blank" rel="noreferrer">V1</a>
 		</Tooltip>
+		<Tooltip tip="Secret 👀">
+			<a href="https://useless.asmocore.eu/" target="_blank" rel="noreferrer">V0</a>
+		</Tooltip>
 	</h6>
 </footer>
 
